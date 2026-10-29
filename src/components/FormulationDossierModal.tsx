@@ -33,7 +33,7 @@ export const FormulationDossierModal: React.FC<FormulationDossierModalProps> = (
 
   const handleDownloadJson = () => {
     const reportData = {
-      reportTitle: 'PharmADDS Formulation & Characterization Dossier',
+      reportTitle: 'PharmaCore Formulation & Characterization Dossier',
       timestamp: new Date().toISOString(),
       compound: drug,
       selectedSystem: systemType,
@@ -47,7 +47,7 @@ export const FormulationDossierModal: React.FC<FormulationDossierModalProps> = (
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `PharmADDS_Dossier_${drug.name}_${Date.now()}.json`;
+    a.download = `PharmaCore_Dossier_${drug.name}_${Date.now()}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -281,7 +281,7 @@ export const FormulationDossierModal: React.FC<FormulationDossierModalProps> = (
         {/* Modal Footer */}
         <div className="px-6 py-3 bg-slate-50 border-t border-slate-200 flex items-center justify-between">
           <span className="text-[11px] text-slate-400 font-mono">
-            Generated via PharmADDS Laboratory Computing Engine
+            Generated via PharmaCore Laboratory Computing Engine
           </span>
           <button
             onClick={onClose}

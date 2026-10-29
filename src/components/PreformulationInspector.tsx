@@ -59,7 +59,7 @@ export const PreformulationInspector: React.FC<PreformulationInspectorProps> = (
           toxicityMTC_mgL: detail.benchmark ? detail.benchmark.toxicityMTC_mgL : 8.0,
           effectiveMEC_mgL: detail.benchmark ? detail.benchmark.effectiveMEC_mgL : 1.0,
           description: detail.benchmark ? detail.benchmark.description : 'Imported via PubChem PUG REST open scientific database.',
-          bengaliSummary: detail.benchmark ? detail.benchmark.bengaliSummary : 'পাবকেম থেকে প্রাপ্ত যৌগটির ফিজিকোকেমিক্যাল বৈশিষ্ট্য অনুযায়ী উপযুক্ত ড্রাগ ডেলিভারি সিস্টেম নির্বাচন করুন।'
+          bengaliSummary: detail.benchmark ? detail.benchmark.bengaliSummary : 'Select the optimal drug delivery system architecture based on physicochemical parameters retrieved from PubChem.'
         };
         onSelectDrug(newCompound);
       } else {

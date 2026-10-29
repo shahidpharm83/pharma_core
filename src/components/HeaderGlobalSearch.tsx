@@ -90,7 +90,7 @@ export const HeaderGlobalSearch: React.FC<HeaderGlobalSearchProps> = ({
         toxicityMTC_mgL: data.benchmark ? data.benchmark.toxicityMTC_mgL : 8.0,
         effectiveMEC_mgL: data.benchmark ? data.benchmark.effectiveMEC_mgL : 1.0,
         description: data.benchmark ? data.benchmark.description : 'Loaded directly via NCBI PubChem PUG REST & PUG View API.',
-        bengaliSummary: data.benchmark ? data.benchmark.bengaliSummary : 'পাবকেম থেকে লোডকৃত নতুন ড্রাগ মলিকুলের জন্য অপ্টিমাইজড ড্রাগ ডেলিভারি সিস্টেম কনফিগার করা হয়েছে।',
+        bengaliSummary: data.benchmark ? data.benchmark.bengaliSummary : 'Optimized drug delivery system profile configured directly from NCBI PubChem structural data.',
         safetyData: data.safetyData,
       };
 

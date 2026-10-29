@@ -18,6 +18,8 @@ import {
   Sparkles,
   FlaskConical,
   ShieldCheck,
+  Info,
+  Calendar,
 } from 'lucide-react';
 import { CompoundProperties } from '../types/pharmadds';
 import { HeaderGlobalSearch } from './HeaderGlobalSearch';
@@ -72,6 +74,7 @@ export const Header: React.FC<HeaderProps> = ({
     { id: 'pkpd', label: 'PK/PD Engine', icon: Activity },
     { id: 'formulator', label: 'Formulator (IID)', icon: FlaskConical },
     { id: 'compliance-overview', label: 'Compliance Overview', icon: ShieldCheck },
+    { id: 'about', label: 'About', icon: Info },
   ];
 
   return (
@@ -90,13 +93,13 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <div className="w-8 h-8 rounded bg-slate-900 flex items-center justify-center text-white font-mono font-bold text-sm tracking-wider">
-              AD
+              PC
             </div>
             <button
               onClick={() => handleNavClick('overview')}
               className="text-lg font-bold tracking-tight text-slate-900 whitespace-nowrap text-left hidden sm:inline"
             >
-              PharmADDS
+              PharmaCore
             </button>
           </div>
 
@@ -183,6 +186,21 @@ export const Header: React.FC<HeaderProps> = ({
                       </div>
                     </div>
                   </button>
+
+                  <button
+                    onClick={() => handleNavClick('stability-log')}
+                    className="w-full text-left p-2 rounded hover:bg-slate-50 transition-colors flex items-start gap-2.5 group border-t border-slate-100"
+                  >
+                    <Calendar className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                    <div>
+                      <div className="text-xs font-bold text-slate-800 group-hover:text-blue-600">
+                        Experimental Stability Log
+                      </div>
+                      <div className="text-[10px] text-slate-500">
+                        Daily pull timeline, potency loss & ICH Q1A audits
+                      </div>
+                    </div>
+                  </button>
                 </div>
               )}
             </div>
@@ -222,6 +240,15 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             <button
+              onClick={() => handleNavClick('about')}
+              className="hidden lg:inline-flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium text-slate-700 bg-slate-100 hover:bg-slate-200 rounded transition-colors whitespace-nowrap cursor-pointer"
+              title="About PharmaCore & Platform Architecture"
+            >
+              <Info className="w-3.5 h-3.5 text-slate-600" />
+              <span>About</span>
+            </button>
+
+            <button
               onClick={onOpenDossier}
               className="inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold text-white bg-blue-600 hover:bg-blue-700 rounded transition-colors whitespace-nowrap shadow-xs"
             >
@@ -247,9 +274,9 @@ export const Header: React.FC<HeaderProps> = ({
             <div className="h-16 px-4 border-b border-slate-200 flex items-center justify-between">
               <div className="flex items-center gap-2.5">
                 <div className="w-7 h-7 rounded bg-slate-900 flex items-center justify-center text-white font-mono font-bold text-xs">
-                  AD
+                  PC
                 </div>
-                <span className="font-bold text-slate-900 text-base">PharmADDS Studio</span>
+                <span className="font-bold text-slate-900 text-base">PharmaCore Studio</span>
               </div>
               <button
                 onClick={() => setIsMobileMenuOpen(false)}

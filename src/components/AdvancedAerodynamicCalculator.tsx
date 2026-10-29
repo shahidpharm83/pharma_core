@@ -365,7 +365,7 @@ export const AdvancedAerodynamicCalculator: React.FC<AdvancedAerodynamicCalculat
   // Export CSV
   const handleExportCSV = () => {
     const rows = [
-      ['PharmADDS Aerodynamic Particle Analysis Report'],
+      ['PharmaCore Aerodynamic Particle Analysis Report'],
       ['Compound', currentDrug.name],
       ['Apparatus', apparatus],
       ['Test Flow Rate (L/min)', flowRate.toString()],
@@ -714,14 +714,14 @@ export const AdvancedAerodynamicCalculator: React.FC<AdvancedAerodynamicCalculat
             </div>
           </div>
 
-          {/* Bengali Clinical Guidance Box */}
+          {/* Aerodynamic Laboratory & Inhalation Guidance Box */}
           <div className="p-3.5 rounded-lg bg-slate-50 border border-slate-200 text-xs text-slate-700 space-y-1">
             <span className="font-bold text-slate-900 flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5 text-cyan-600" />
-              <span>বিজ্ঞান নীতি ও ল্যাব টেস্টের গুরুত্ব (Bangla Scientific Guide):</span>
+              <span>Aerodynamic Particle Sizing & Inhalation Principles:</span>
             </span>
             <p className="text-[11px] leading-relaxed text-slate-600">
-              ইনহেলারের ক্ষেত্রে কণার সাইজ <strong>১.০ থেকে ৫.০ µm</strong> (MMAD) হওয়া বাধ্যতামূলক। এই ক্যালকুলেটরে NGI বা ACI এর প্রতিটি স্টেজের ড্রাগ ভর বসালে লগ-প্রোবিট রিগ্রেশনের মাধ্যমে স্বয়ংক্রিয়ভাবে MMAD, GSD এবং ফাইন পার্টিকেল ডোজ (FPD) বের হয়ে আসে। FPD যত বেশি হবে এবং গলার ডিপোজিশন (Throat Loss) যত কম হবে, ড্রাগের সাইড-ইফেক্ট তত কমে যাবে এবং ফুসফুসের ব্রঙ্কিওলে কার্যকর নিরাময় মিলবে।
+              For targeted pulmonary delivery, an aerodynamic size range of <strong>1.0 to 5.0 µm</strong> (MMAD) is pharmacopeially required to minimize both high-velocity oropharyngeal impaction (&gt;5 µm) and exhalation loss (&lt;1 µm). Entering stage-by-stage drug deposition data from the Next Generation Impactor (NGI) or Andersen Cascade Impactor (ACI) performs automatic log-probit regression to derive MMAD, geometric standard deviation (GSD), and fine particle dose (FPD). Maximizing FPD and lowering throat loss enhances deep peripheral lung deposition and therapeutic indices.
             </p>
           </div>
         </div>

@@ -21,7 +21,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 8.5,
     effectiveMEC_mgL: 0.8,
     description: 'Extremely insoluble antineoplastic. Conventional Cremophor EL vehicle causes acute hypersensitivity. Targeted albumin/PLGA nanocarriers dramatically lower systemic cardiotoxicity and maximize tumor accumulation via EPR.',
-    bengaliSummary: 'প্যাক্লিট্যাক্সেল পানিতে প্রায় দ্রবীভূত হয় না। ন্যানোপার্টিকেল বা লাইপোসোমাল ফর্মুলেশন ব্যবহারের মাধ্যমে প্রচলিত বিষাক্ত দ্রাবক এড়িয়ে টিউমারে সরাসরি ওষুধ পৌঁছানো যায় এবং বায়োএভেইলেবিলিটি প্রায় ১২ গুণ বৃদ্ধি পায়।'
+    bengaliSummary: 'Paclitaxel exhibits sub-microgram aqueous solubility. Albumin or pegylated nanoparticle delivery avoids toxic surfactant vehicles, targeting the tumor via EPR effect and increasing systemic bio-exposure ~12-fold.'
   },
   {
     cid: 31703,
@@ -43,7 +43,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 5.0,
     effectiveMEC_mgL: 0.5,
     description: 'Potent anthracycline with severe dose-limiting cardiotoxicity. Stealth pegylated liposomal encapsulation circumvents myocardial uptake while targeting tumor vasculature via fenestrated capillaries.',
-    bengaliSummary: 'ডক্সোরুবিসিন হার্টের ক্ষতি করে (কার্ডিওটক্সিক)। পেগাইলেটেড লাইপোসম ন্যানোক্যারিয়ার ব্যবহার করলে এটি সরাসরি হার্টে না গিয়ে কেবল টিউমার টিস্যুতে জমা হয়, ফলে টক্সিসিটি অনেক কমে এবং কার্যক্ষমতা বহুগুণ বাড়ে।'
+    bengaliSummary: 'Doxorubicin causes severe cumulative cardiotoxicity. Stealth PEGylated liposome encapsulation prevents myocardial uptake while selectively accumulating in tumor interstitium, widening therapeutic margin.'
   },
   {
     cid: 63007,
@@ -65,7 +65,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 4.2,
     effectiveMEC_mgL: 0.25,
     description: 'High first-pass metabolism when swallowed. Inhaled aerodynamically engineered particles (MMAD 2.2 µm) deposit directly in lower airways with >55% Fine Particle Fraction, eliminating systemic glucocorticoid side effects.',
-    bengaliSummary: 'বুডেসোনাইড পেটে খেলে মাত্র ১১% শরীরে পৌঁছায়। ড্রাই পাউডার ইনহেলার বা মিটার ডোজ ইনহেলারের মাধ্যমে অ্যারোসল আকারে নিলে এটি ফুসফুসের গভীরে পৌঁছায় এবং কম মাত্রায় দ্রুত শ্বাসকষ্ট নিয়ন্ত্রণ করে।'
+    bengaliSummary: 'Oral budesonide undergoes ~89% first-pass hepatic degradation. Engineered dry powder aerosol delivery achieves deep pulmonary deposition at low microgram doses without systemic corticosteroid toxicity.'
   },
   {
     cid: 2083,
@@ -87,7 +87,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 15.0,
     effectiveMEC_mgL: 1.5,
     description: 'Rapid-acting bronchodilator. Inhaled pMDI delivery produces bronchodilation in under 5 minutes with a tenth of the oral dose, preventing systemic tremor and tachycardia.',
-    bengaliSummary: 'সালবিউটামল মুখে খাওয়ার বদলে ইনহেলার হিসেবে নিলে খুব অল্প সময়ে ব্রঙ্কোডায়ালেশন ঘটায় এবং মুখে খাওয়ার তুলনায় হার্টরেট বৃদ্ধি বা কাঁপুনির ঝুঁকি দূর করে।'
+    bengaliSummary: 'Inhaled aerosol salbutamol triggers rapid bronchodilation within minutes at a fraction of the oral dose, preventing systemic adverse reactions such as tachycardia and tremor.'
   },
   {
     cid: 55283,
@@ -109,7 +109,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 10.0,
     effectiveMEC_mgL: 1.0,
     description: 'Extremely lipophilic and water-insoluble (sub-microgram/mL). Amorphous solid dispersion prevents recrystallization via Gordon-Taylor stabilized polymeric glass, yielding a sustained 12-fold supersaturation parachute.',
-    bengaliSummary: 'ইট্রাকোনাজোল পানিতে প্রায় অদ্রবণীয়। অ্যামোরফাস সলিড ডিসপারশন প্রযুক্তির মাধ্যমে পলিমার ম্যাট্রিক্সে রূপান্তর করলে এটি দ্রুত দ্রবীভূত হয় এবং রক্তে থেরাপিউটিক লেভেলে দীর্ঘক্ষণ বজায় থাকে।'
+    bengaliSummary: 'Itraconazole possesses sub-microgram solubility. Polymeric amorphous solid dispersion vitrifies the drug into a high-energy glass solution, creating a long-lasting supersaturation parachute in gastrointestinal fluids.'
   },
   {
     cid: 969516,
@@ -131,7 +131,7 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 20.0,
     effectiveMEC_mgL: 0.5,
     description: 'Virtually non-bioavailable in crystalline state (<1%). Polymeric amorphous solid dispersion or SNEDDS enhances apparent kinetic solubility by >400-fold with marked intestinal permeability.',
-    bengaliSummary: 'প্রাকৃতিক কারকিউমিনের প্রাকৃতিক বায়োএভেইলেবিলিটি ১% এরও নিচে। ন্যানো ইমালশন বা অ্যামোরফাস সলিড ডিসপারশন করলে এর দ্রবণীয়তা ৪০০ গুণ বেড়ে যায় এবং প্রদাহনাশক ক্ষমতা বহুগুণ কার্যকর হয়।'
+    bengaliSummary: 'Native crystalline curcumin yields oral bioavailability under 1%. Converting to a polymeric solid dispersion or SNEDDS enhances kinetic dissolution >400-fold, maximizing systemic therapeutic delivery.'
   },
   {
     cid: 137446549,
@@ -153,6 +153,6 @@ export const BENCHMARK_DRUGS_LIST: CompoundProperties[] = [
     toxicityMTC_mgL: 12.0,
     effectiveMEC_mgL: 0.4,
     description: 'Ionizable lipid designed for intracellular nucleic acid delivery. Neutral at physiological pH (7.4) for minimal systemic cytotoxicity, becomes cationic in acidic endosome (pH 5.5-6.0) causing bilayer disruption and cytoplasm cargo release.',
-    bengaliSummary: 'এমআরএনএ সরাসরি রক্তে দিলে নষ্ট হয়ে যায়। এই পিএইচ-সংবেদনশীল আয়নাইজেবল লিপিড ন্যানোপার্টিকেল শরীরের কোষে প্রবেশ করে এবং সাইটোপ্লাজমে নিরাপদে এমআরএনএ ডেলিভার করে।'
+    bengaliSummary: 'Naked mRNA undergoes immediate ribonuclease degradation in vivo. Ionizable lipid nanoparticles remain neutral in blood, then undergo tertiary amine endosomal protonation to release mRNA safely into the cytoplasm.'
   }
 ];

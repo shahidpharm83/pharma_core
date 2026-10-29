@@ -5,6 +5,7 @@ import { HspMiscibilityCalculator } from './HspMiscibilityCalculator';
 import { AsdAcceleratedStabilityForecast } from './AsdAcceleratedStabilityForecast';
 import { AsdHumidityTgDegradationCalculator } from './AsdHumidityTgDegradationCalculator';
 import { AsdRealtimeD3DegradationChart } from './AsdRealtimeD3DegradationChart';
+import { ExperimentalStabilityLog } from './ExperimentalStabilityLog';
 
 interface AmorphousDispersionStudioProps {
   currentDrug: CompoundProperties;
@@ -418,7 +419,16 @@ export const AmorphousDispersionStudio: React.FC<AmorphousDispersionStudioProps>
         />
       </div>
 
-      {/* Real-Time D3.js Shelf-Life Degradation Curve */}
+      {/* Gordon-Taylor Humidity Degradation Calculator & Multi-Role Educational Guide */}
+      <div className="pt-2">
+        <AsdHumidityTgDegradationCalculator
+          currentDrug={currentDrug}
+          amorphousState={amorphousState}
+          onOpenGlossary={onOpenGlossary}
+        />
+      </div>
+
+      {/* Real-Time D3.js Shelf-Life Degradation Curve & +/- 10% Humidity Sensitivity Simulator */}
       <div className="pt-2">
         <AsdRealtimeD3DegradationChart
           storageTemp_C={amorphousState.storageTemp_C}
@@ -426,6 +436,14 @@ export const AmorphousDispersionStudio: React.FC<AmorphousDispersionStudioProps>
           drugTg_C={amorphousState.drugTg_C}
           drugWeightFraction={amorphousState.drugWeightFraction}
           polymerName={amorphousState.polymerType}
+        />
+      </div>
+
+      {/* Experimental Stability Log & Chronological Degradation Observation Timeline */}
+      <div id="stability-log" className="pt-2">
+        <ExperimentalStabilityLog
+          currentDrug={currentDrug}
+          onOpenGlossary={onOpenGlossary}
         />
       </div>
     </section>

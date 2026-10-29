@@ -234,7 +234,7 @@ export const NanoparticleLimsModule: React.FC<NanoparticleLimsModuleProps> = ({
   // Export audit trail JSON
   const handleCopyAuditTrail = () => {
     const auditRecord = {
-      system: 'PharmADDS Nanoparticle LIMS & Regulatory Audit Trail',
+      system: 'PharmaCore Nanoparticle LIMS & Regulatory Audit Trail',
       timestamp: new Date().toISOString(),
       batchMetadata: {
         batchId,

@@ -52,7 +52,7 @@ export const MobileQuickNav: React.FC<MobileQuickNavProps> = ({
         >
           <HelpCircle className="w-4 h-4 mb-0.5 text-blue-600" />
           <span className="text-[9.5px] font-semibold leading-none">
-            শব্দকোষ
+            Glossary
           </span>
         </button>
       </div>

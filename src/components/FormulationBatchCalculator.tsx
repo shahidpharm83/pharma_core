@@ -33,7 +33,7 @@ export const FormulationBatchCalculator: React.FC<FormulationBatchCalculatorProp
   const buffer_mL = batchVolume_mL;
 
   const handleCopyProtocol = () => {
-    const text = `=== PharmADDS Bench Preparation Protocol ===
+    const text = `=== PharmaCore Bench Preparation Protocol ===
 Target Molecule: ${currentDrug.name} (CID: ${currentDrug.cid})
 System Architecture: ${systemType.toUpperCase()}
 Batch Volume: ${batchVolume_mL} mL
@@ -267,7 +267,7 @@ ${includeCryoProtectant ? `3. Cryoprotectant (D-(+)-Trehalose dihydrate): ${treh
                 <FileText className="w-5 h-5 text-blue-600" />
                 <div>
                   <h3 className="text-base font-bold text-slate-900">Official Formulation Batch Record & Material Bill of Materials</h3>
-                  <p className="text-xs text-slate-500">PharmADDS Regulatory Documentation & Laboratory Recipe</p>
+                  <p className="text-xs text-slate-500">PharmaCore Regulatory Documentation & Laboratory Recipe</p>
                 </div>
               </div>
               <div className="flex items-center gap-2">

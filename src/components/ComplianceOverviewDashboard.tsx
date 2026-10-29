@@ -63,7 +63,7 @@ export const ComplianceOverviewDashboard: React.FC<ComplianceOverviewDashboardPr
       id: 'nanoparticle_studio',
       name: 'Nanoparticle Studio (LIMS & Reagent COAs)',
       category: 'Parenteral / LNP Nanomedicine',
-      icon: SlidersIconMock => <Atom className="w-4 h-4 text-purple-600" />,
+      icon: Atom,
       targetSection: 'nanoparticles',
       totalItems: 7,
       completedItems: 5,

@@ -122,7 +122,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Cellulose derivative with hydroxypropoxy, acetyl, and succinoyl substituents.',
     },
     openFdaCommercialProducts: ['Kalydeco (Ivacaftor)', 'Orkambi (Lumacaftor/Ivacaftor)', 'Trikafta'],
-    descriptionBn: 'অ্যামরফা সলিড ডিসপারশনের প্রধান পলিমার। অন্ত্রের ডুওডেনামে দ্রবীভূত হয়ে ড্রাগ রিলিজ ঘটায়।',
+    descriptionBn: 'Primary enteric polymer for amorphous solid dispersions, dissolving at intestinal pH >= 5.5 to release drug.',
   },
   {
     id: 'copovidone',
@@ -164,7 +164,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: '6:4 linear random copolymer of N-vinyl-2-pyrrolidone and vinyl acetate.',
     },
     openFdaCommercialProducts: ['Kaletra (Lopinavir/Ritonavir)', 'Viekira Pak', 'Zepatier'],
-    descriptionBn: 'হট-মেল্ট এক্সট্রুশন (HME) এর গোল্ড স্ট্যান্ডার্ড পলিমার। উচ্চ থার্মোপ্লাস্টিসিটি সম্পন্ন।',
+    descriptionBn: 'Gold-standard thermoplastic copolymer for hot-melt extrusion (HME) and solid dispersion stabilization.',
   },
   {
     id: 'soluplus',
@@ -206,7 +206,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Polyvinyl caprolactam-polyvinyl acetate-polyethylene glycol graft copolymer.',
     },
     openFdaCommercialProducts: ['Fenofibrate ASD', 'Itraconazole Nanomicellar Formulations'],
-    descriptionBn: 'অ্যাম্ফিফিলিক গ্রাফট পলিমার যা ইন ভিভো মাইক্রো-মাইসেলাইজেশনের মাধ্যমে শোষণ বাড়ায়।',
+    descriptionBn: 'Amphiphilic graft copolymer enhancing oral absorption via spontaneous in vivo micellar solubilization.',
   },
   {
     id: 'sm102',
@@ -249,7 +249,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Branched tertiary amine lipid with biodegradable ester linkages.',
     },
     openFdaCommercialProducts: ['Spikevax (COVID-19 mRNA Vaccine, Moderna)', 'mRESVIA (RSV Vaccine)'],
-    descriptionBn: 'mRNA এবং টার্গেটেড ন্যানোমেডিসিনের জন্য আয়নাইজেবল লিপিড। এন্ডোজোমাল এস্কেপে সহায়ক।',
+    descriptionBn: 'Ionizable amino lipid for mRNA and targeted nanomedicines, facilitating pH-responsive endosomal escape.',
   },
   {
     id: 'dspc',
@@ -293,7 +293,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Saturated 18-carbon phosphatidylcholine bilayer forming helper lipid.',
     },
     openFdaCommercialProducts: ['Doxil (Liposomal Doxorubicin)', 'Comirnaty', 'Spikevax', 'TOBI Podhaler'],
-    descriptionBn: 'লিপিড ন্যানোপার্টিকেল এবং লিপোজোমের গঠনগত রিজিডিটি প্রদানকারী হেল্পার ফসফোলিপিড।',
+    descriptionBn: 'Helper phospholipid providing structural bilayer rigidity and physical stability to lipid nanoparticles.',
   },
   {
     id: 'cholesterol',
@@ -336,7 +336,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Sterol lipid regulating membrane fluidity and in vivo stability.',
     },
     openFdaCommercialProducts: ['AmBisome (Amphotericin B)', 'Doxil', 'Marqibo', 'Onpattro (Patisiran)'],
-    descriptionBn: 'লিপিড বাইলেয়ারের ফ্লুইডিটি নিয়ন্ত্রণ করে সিরাম প্রোটিন দ্বারা ড্রাগ লিকেজ বন্ধ করে।',
+    descriptionBn: 'Modulates lipid bilayer fluidity and prevents premature drug leakage induced by circulating serum proteins.',
   },
   {
     id: 'lactose_monohydrate',
@@ -379,7 +379,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Disaccharide composed of beta-D-galactose and beta-D-glucose.',
     },
     openFdaCommercialProducts: ['Advair Diskus (Fluticasone/Salmeterol)', 'Symbicort Turbuhaler', 'Spiriva HandiHaler'],
-    descriptionBn: 'ড্রাই পাউডার ইনহেলার (DPI) এর জন্য ইঞ্জিনিয়ার্ড ক্যারিয়ার যা ফুসফুসে অ্যারোসল রিলিজ ঘটায়।',
+    descriptionBn: 'Engineered inhalation carrier facilitating aerosol deagglomeration and targeted deep airway deposition.',
   },
   {
     id: 'trehalose_dihydrate',
@@ -423,7 +423,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Non-reducing alpha,alpha-1,1-linked glucopyranoside disaccharide.',
     },
     openFdaCommercialProducts: ['Herceptin (Trastuzumab)', 'Avastin', 'Lucentis'],
-    descriptionBn: 'লায়োফিলাইজেশন এবং কোল্ড চেইন সংরক্ষণে ন্যানোপার্টিকেল রক্ষা করার ক্রায়োপ্রোটেক্টিভ সুগার।',
+    descriptionBn: 'Lyoprotectant disaccharide preventing aggregation during freeze-drying and cold-chain storage of nanomedicines.',
   },
   {
     id: 'croscarmellose_sodium',
@@ -464,7 +464,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Cross-linked polymer of sodium carboxymethylcellulose.',
     },
     openFdaCommercialProducts: ['Lipitor (Atorvastatin)', 'Crestor', 'Januvia'],
-    descriptionBn: 'সুপার-ডিসইন্টিগ্রেন্ট যা ট্যাবলেট বা ক্যাপসুলকে পানির সংস্পর্শে এনে দ্রুত ভেঙে ফেলে।',
+    descriptionBn: 'Superdisintegrant promoting rapid water wicking and rapid disintegration in solid oral dosage forms.',
   },
   {
     id: 'magnesium_stearate',
@@ -508,7 +508,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Magnesium salt of stearic and palmitic saturated fatty acids.',
     },
     openFdaCommercialProducts: ['Breo Ellipta (Inhalation powder)', 'Plavix', 'Metformin HCl Tablets'],
-    descriptionBn: 'ট্যাবলেট ডাই ওয়ালে লুব্রিকেশন প্রদান করে এবং ইনহেলেশনে ড্রাগ পার্টিকেলের ডিসপার্সিবিলিটি বাড়ায়।',
+    descriptionBn: 'Boundary lubricant reducing tablet die ejection friction and enhancing inhalation aerosol dispersion.',
   },
   {
     id: 'mcc_ph102',
@@ -549,7 +549,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Purified, partially depolymerized cellulose consisting of crystalline aggregates.',
     },
     openFdaCommercialProducts: ['Norvasc (Amlodipine)', 'Glucophage', 'Zoloft'],
-    descriptionBn: 'ডাইরেক্ট কম্প্রেশনের জন্য গোল্ড স্ট্যান্ডার্ড ড্রাই বাইন্ডার ও ফিলার।',
+    descriptionBn: 'Gold-standard direct compression dry binder and filler with excellent plastic deformation properties.',
   },
   {
     id: 'hpmc_k100m',
@@ -589,7 +589,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Propylene glycol ether of methylcellulose with high degree of hydroxypropyl and methoxyl substitution.',
     },
     openFdaCommercialProducts: ['Seroquel XR (Quetiapine)', 'Glucotrol XL', 'Nifedipine ER'],
-    descriptionBn: 'এক্সটেন্ডেড রিলিজ (ER) ট্যাবলেটের হাইড্রোফিলিক জেল ম্যাট্রিক্স পলিমার।',
+    descriptionBn: 'Hydrophilic polymer creating rate-controlling swellable gel diffusion matrices for extended-release tablets.',
   },
   {
     id: 'mannitol_pearlitol',
@@ -633,7 +633,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Hexahydric alcohol related to mannose and isomeric with sorbitol.',
     },
     openFdaCommercialProducts: ['Bronchitol (Mannitol Inhalation)', 'Zofran ODT (Ondansetron)', 'Maxalt-MLT'],
-    descriptionBn: 'ওডিটি এবং ইনহেলেশনের জন্য নন-হাইগ্রোস্কোপিক মিষ্টি কুলিং ডাইলুয়েন্ট।',
+    descriptionBn: 'Non-hygroscopic crystalline cooling diluent engineered for orally disintegrating tablets and inhalation carriers.',
   },
   {
     id: 'polysorbate_80',
@@ -676,7 +676,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Polyoxyethylene (20) sorbitan monooleate.',
     },
     openFdaCommercialProducts: ['Keytruda (Pembrolizumab)', 'Taxotere (Docetaxel)', 'Comirnaty'],
-    descriptionBn: 'ইনজেক্টেবল প্রোটিন ও অ্যান্টিবডি ওষুধে ইন্টারফেসিয়াল অ্যাগ্রিগেশন প্রতিরোধী নন-আয়নিক সারফ্যাক্ট্যান্ট।',
+    descriptionBn: 'Non-ionic surfactant preventing interfacial protein aggregation and surface adsorption in biologics.',
   },
   {
     id: 'peg_2000_dmg',
@@ -718,7 +718,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Methoxypolyethylene glycol conjugated to dimyristoyl glycerol through carbamate/ether linkage.',
     },
     openFdaCommercialProducts: ['Spikevax (COVID-19 Vaccine, Moderna)'],
-    descriptionBn: 'mRNA ন্যানোপার্টিকেলের আকার সুনির্দিষ্ট রাখতে এবং রক্তে স্টেলথ কার্যকারিতা দিতে PEGylated লিপিড।',
+    descriptionBn: 'Stealth PEGylated lipid regulating nanoparticle diameter and providing steric stability in systemic circulation.',
   },
   {
     id: 'peg_400',
@@ -761,7 +761,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Linear addition polymer of ethylene oxide and water.',
     },
     openFdaCommercialProducts: ['Amiodarone Injection', 'Systane Lubricant Eye Drops', 'Advil Liquid-Gels'],
-    descriptionBn: 'হাইড্রোলিক কো-সলভেন্ট ও লিকুইড ভেহিকল যা কঠিন ড্রাগ দ্রবীভূত করতে ব্যবহৃত হয়।',
+    descriptionBn: 'Hydrophilic co-solvent and liquid vehicle used to enhance the solubility of poorly water-soluble active drugs.',
   },
   {
     id: 'captisol_sbecd',
@@ -803,7 +803,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Cycloheptaglucan derivative modified with 6-7 sulfobutyl ether sodium salt groups.',
     },
     openFdaCommercialProducts: ['Vfend IV (Voriconazole)', 'Veklury (Remdesivir)', 'Kyprolis (Carfilzomib)'],
-    descriptionBn: 'ইনজেক্টেবল ড্রাগ দ্রবীভূত করার জন্য সাইক্লোডেক্সট্রিন ইনক্লুশন কমপ্লেক্স এজেন্ট।',
+    descriptionBn: 'Modified beta-cyclodextrin enabling inclusion complexation to solubilize and stabilize parenteral therapeutics.',
   },
   {
     id: 'colloidal_silicon_dioxide',
@@ -846,7 +846,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: 'Fumed sub-micron amorphous silicon dioxide produced by vapor-phase hydrolysis.',
     },
     openFdaCommercialProducts: ['Synthroid (Levothyroxine)', 'Atorvastatin Tablets', 'Metoprolol Succinate ER'],
-    descriptionBn: 'ট্যাবলেট পাউডারের ফ্লো বৃদ্ধিকারী গ্লাইড্যান্ট ও আর্দ্রতারোধক ন্যানো-সিলিকা।',
+    descriptionBn: 'Sub-micron glidant and moisture scavenger improving bulk powder flowability and anti-caking properties.',
   },
   {
     id: 'hfa_134a',
@@ -888,7 +888,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: '1,1,1,2-Tetrafluoroethane fluorocarbon gas.',
     },
     openFdaCommercialProducts: ['ProAir HFA (Albuterol)', 'Flovent HFA (Fluticasone)', 'Symbicort pMDI'],
-    descriptionBn: 'মিটার্ড ডোজ ইনহেলারের (pMDI) ওজোন-বান্ধব লিকুইড প্রপেল্যান্ট গ্যাস।',
+    descriptionBn: 'Zero-ODP liquefied hydrofluoroalkane propellant engineered for pressurized metered-dose inhalers (pMDIs).',
   },
   {
     id: 'citric_acid_monohydrate',
@@ -932,7 +932,7 @@ export const FDA_IID_FLAT_DATABASE: IidExcipientRecord[] = [
       structureDesc: '2-Hydroxypropane-1,2,3-tricarboxylic acid monohydrate.',
     },
     openFdaCommercialProducts: ['Paxlovid (Nirmatrelvir/Ritonavir)', 'Humira (Adalimumab Citrate-free comparison)', 'Pedialyte'],
-    descriptionBn: 'পিএইচ বাফারিং এবং মেটাল চিলেশনের মাধ্যমে ড্রাগ স্টেবিলিটি রক্ষাকারী সাইট্রিক অ্যাসিড।',
+    descriptionBn: 'Buffering acidulant and chelating agent providing chemical stability against trace metal-catalyzed oxidation.',
   },
 ];
 

@@ -15,7 +15,8 @@ import {
   BookOpen,
   HelpCircle,
   Lock,
-  FileSpreadsheet
+  FileSpreadsheet,
+  Search,
 } from 'lucide-react';
 
 interface RegulatoryItem {

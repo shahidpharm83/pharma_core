@@ -15,6 +15,7 @@ import { GlossaryDrawer } from './components/GlossaryDrawer';
 import { CompoundSafetyModal } from './components/CompoundSafetyModal';
 import { FormulatorStudio } from './components/FormulatorStudio';
 import { ComplianceOverviewDashboard } from './components/ComplianceOverviewDashboard';
+import { AboutSection } from './components/AboutSection';
 import { BENCHMARK_DRUGS_LIST } from './data/benchmarkDrugs';
 import {
   CompoundProperties,
@@ -238,6 +239,12 @@ export default function App() {
           currentDrug={currentDrug}
           onNavigate={handleNavigate}
         />
+
+        {/* 9. About PharmaCore: Platform Architecture, Mathematical Foundations & Regulatory Standards */}
+        <AboutSection
+          onNavigate={handleNavigate}
+          onOpenGlossary={handleOpenGlossary}
+        />
       </main>
 
       {/* Floating Bottom Quick Nav for Mobile Screens */}
@@ -284,7 +291,7 @@ export default function App() {
       <footer className="bg-white border-t border-slate-200 py-6 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-slate-900">PharmADDS</span>
+            <span className="font-bold text-slate-900">PharmaCore</span>
             <span>·</span>
             <span>Pharmaceutical R&D Studio for Advanced Drug Delivery Systems</span>
           </div>
@@ -292,6 +299,13 @@ export default function App() {
             <span>PubChem PUG REST API Integrated</span>
             <span>·</span>
             <span>Ph. Eur. & USP &lt;601&gt; Standards</span>
+            <span>·</span>
+            <button
+              onClick={() => handleNavigate('about')}
+              className="text-slate-600 hover:text-blue-600 hover:underline font-medium cursor-pointer"
+            >
+              About Platform
+            </button>
             <span>·</span>
             <button
               onClick={() => setIsLabGuideOpen(true)}

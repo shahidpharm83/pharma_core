@@ -54,7 +54,7 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({
                 Pharmaceutical R&D Scientific Glossary & Explainer
               </h3>
               <p className="text-[11px] text-slate-500 font-mono">
-                বৈজ্ঞানিক পরিভাষা, ল্যাব মেথড ও গ্রহণযোগ্য মানদণ্ড
+                Scientific Terminology, Laboratory Methods & Pharmacopeial Criteria
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({
               type="text"
               value={searchFilter}
               onChange={(e) => setSearchFilter(e.target.value)}
-              placeholder="Search scientific terms or Bengali meaning..."
+              placeholder="Search scientific terms, CQAs, or criteria..."
               className="w-full pl-9 pr-3 py-1.5 text-xs bg-slate-50 border border-slate-200 rounded focus:bg-white focus:outline-hidden focus:ring-1 focus:ring-blue-500 text-slate-800"
             />
           </div>

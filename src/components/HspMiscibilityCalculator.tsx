@@ -40,7 +40,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 120,
     density: 1.28,
     category: 'Cellulosic',
-    descriptionBn: 'লো-অ্যাসিটাইল ও হাই-সাকসিনয়েল সেলুলোজ। অন্ত্রের pH ৫.৫ এ দ্রবীভূত হয় এবং প্রোটিন বা লাইপোফিলিক ড্রাগের ক্রিস্টালাইজেশন রোধ করে।',
+    descriptionBn: 'Low-acetyl and high-succinoyl cellulose derivative. Dissolves at intestinal pH ≥ 5.5 to sustain supersaturation and prevent lipophilic drug nucleation.',
   },
   {
     id: 'hpma_as_mf',
@@ -53,7 +53,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 122,
     density: 1.28,
     category: 'Cellulosic',
-    descriptionBn: 'মাঝারি অ্যাসিটাইল ও সাকসিনয়েল অনুপাত। pH ৬.০ এ দ্রবীভূত হয়। ডুওডেনাম এবং জেজুনামে সর্বোত্তম রিলিজ দেয়।',
+    descriptionBn: 'Medium-acetyl and succinoyl ratio. Dissolves at pH ≥ 6.0, providing targeted delivery and dissolution in the upper duodenum and jejunum.',
   },
   {
     id: 'copovidone',
@@ -66,7 +66,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 108,
     density: 1.2,
     category: 'Vinyl',
-    descriptionBn: 'হট-মেল্ট এক্সট্রুশন (HME) এবং স্প্রে-ড্রাইংয়ের গোল্ড স্ট্যান্ডার্ড। চমৎকার থার্মোপ্লাস্টিসিটি ও হাই ড্রাগ লোডিং ক্ষমতা।',
+    descriptionBn: 'Gold-standard vinyl copolymer for hot-melt extrusion (HME) and spray drying. Excellent thermoplasticity, high drug miscibility, and physical stabilization.',
   },
   {
     id: 'povidone_k30',
@@ -79,7 +79,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 165,
     density: 1.23,
     category: 'Vinyl',
-    descriptionBn: 'উচ্চ গ্লাস ট্রানজিশন (১৬৫°C) সম্পন্ন হাইড্রোফিলিক পলিমার। দ্রুত দ্রবীভূত হয়ে দ্রুত ড্রাগ রিলিজ ঘটায়।',
+    descriptionBn: 'Hydrophilic vinyl polymer with high glass transition temperature (165°C). Promotes rapid dissolution and immediate release for amorphous dispersion.',
   },
   {
     id: 'soluplus',
@@ -92,7 +92,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 73,
     density: 1.15,
     category: 'Graft Copolymer',
-    descriptionBn: 'অ্যাম্ফিফিলিক গ্রাফট কপলিমার। এক্সট্রুশনে প্লাস্টিসাইজার ছাড়াই কাজ করে এবং অন্ত্রে সেল্ফ-মাইসেলাইজেশনের মাধ্যমে শোষণ বহুগুণ বাড়ায়।',
+    descriptionBn: 'Amphiphilic polyvinyl caprolactam-polyvinyl acetate-polyethylene glycol graft copolymer. Enables plasticizer-free extrusion and forms spontaneous in vivo micelles.',
   },
   {
     id: 'eudragit_l100_55',
@@ -105,7 +105,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 110,
     density: 1.22,
     category: 'Methacrylic',
-    descriptionBn: 'এন্টেরিক পলিমার যা পাকস্থলীর অ্যাসিডিক pH ১.২ এ অদ্রবণীয় থেকে অন্ত্রে pH ৫.৫+ এ ড্রাগের সুপারস্যাচুরেশন বজায় রাখে।',
+    descriptionBn: 'Enteric methacrylic acid copolymer insoluble at gastric pH 1.2; rapidly dissolves at pH ≥ 5.5 to maintain intestinal supersaturation.',
   },
   {
     id: 'hpmc_e5',
@@ -118,7 +118,7 @@ export const POLYMER_DATABASE: PolymerHSP[] = [
     tg_C: 145,
     density: 1.3,
     category: 'Cellulosic',
-    descriptionBn: 'কম সান্দ্রতার সেলুলোজ যা স্প্রে-ড্রাইং সলিড ডিসপারশনে প্রিসিপিটেশন ইনহিবিটর হিসেবে প্যারাশুট ইফেক্ট দেয়।',
+    descriptionBn: 'Low-viscosity hypromellose grade acting as a potent crystallization inhibitor and parachute stabilizer in spray-dried amorphous solid dispersions.',
   },
 ];
 
@@ -820,10 +820,10 @@ export const HspMiscibilityCalculator: React.FC<HspMiscibilityCalculatorProps> =
               </span>
               <p className="text-[11px] text-slate-600">
                 {redIndex < 1.0
-                  ? '✓ ড্রাগটি পলিমারের হ্যানসেন সলুবিলিটি গোলকের ভেতরে রয়েছে। এটি থার্মোডায়নামিক গ্লাস সলিউশন গঠন করবে এবং দীর্ঘ মেয়াদে স্টেবল থাকবে।'
+                  ? '✓ The API resides within the polymer Hansen solubility sphere (RED < 1.0). High thermodynamic affinity favors homogenous amorphous solid solution formation with prolonged shelf-life stability.'
                   : redIndex <= 1.6
-                  ? '⚠ ড্রাগটি সীমানায় (Boundary) রয়েছে। স্প্রে-ড্রাইং এর দ্রুত দ্রাবক বাষ্পীভবনের মাধ্যমে কাইনেটিক ট্র্যাপিং করে স্টেবিলাইজ করতে হবে।'
-                  : '✕ ড্রাগ ও পলিমার অমিল (Immiscible)। এক্সট্রুশন বা স্প্রে ড্রাইংয়ের কয়েকদিনের মধ্যে ফেজ সেপারেশন ও ক্রিস্টালাইজেশনের ঝুঁকি অত্যন্ত বেশি।'}
+                  ? '⚠ Boundary miscibility region (1.0 ≤ RED ≤ 1.6). Kinetic trapping via rapid solvent evaporation (spray drying) or flash cooling is required to prevent phase separation.'
+                  : '✕ High immiscibility (RED > 1.6). High thermodynamic driving force for phase separation, spinodal decomposition, and rapid recrystallization during storage.'}
               </p>
             </div>
           </div>

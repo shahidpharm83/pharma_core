@@ -693,7 +693,7 @@ export const NanoparticleCharacterizationModule: React.FC<NanoparticleCharacteri
               </div>
 
               <p className="text-[11px] text-slate-600 bg-slate-50 p-2.5 rounded border border-slate-200 leading-relaxed">
-                <strong>বিজ্ঞান নীতি (Bangla Guide):</strong> কণার জেটা পটেনশিয়াল ±৩০ mV এর বেশি হলে সমধর্মী বৈদ্যুতিক বিকর্ষণের কারণে কণাগুলো পাত্রে দীর্ঘদিন সাসপেনশন আকারে অক্ষত থাকে। তবে পেগাইলেটেড (PEGylated) লাইপোসমের ক্ষেত্রে চার্জ প্রায় নিউট্রাল (-৫ থেকে +৫ mV) হলেও বাইরের হাইড্রেটেড PEG ব্রাশের কারণে স্টেরিক্যালি কণাগুলো একে অপরের সাথে জোড়া লাগতে পারে না।
+                <strong>Scientific Principle & Colloidal Stability:</strong> Zeta potential magnitude exceeding ±30 mV generates robust electrostatic repulsion between suspended nanocarriers, preventing Ostwald ripening and agglomeration. For PEGylated liposomes or stealth LNPs, near-neutral surface potentials (-5 to +5 mV) remain colloidally stable via steric hydration repulsion exerted by dense outer PEG brush layers.
               </p>
             </div>
           </div>
@@ -804,7 +804,7 @@ export const NanoparticleCharacterizationModule: React.FC<NanoparticleCharacteri
                   {eeMetrics.eeStatus}
                 </span>
                 <p className="text-[11px] text-slate-600 mt-2 leading-relaxed">
-                  <strong>ল্যাব পরামর্শ:</strong> এনক্যাপসুলেশন এফিসিয়েন্সি (%EE) ৯০% এর ওপরে না উঠলে আন-এনক্যাপসুলেটেড ফ্রি ড্রাগ ব্লাডস্ট্রিমে গিয়ে সাইটোটক্সিসিটি তৈরি করতে পারে। লিপিড-টু-ড্রাগ অনুপাত (L/D ratio) বাড়িয়ে অথবা মাইক্রোফ্লুইডিক ফ্লো-রেট রেশিও (FRR) টিউন করে %EE বাড়ানো সম্ভব।
+                  <strong>R&D Laboratory Insight:</strong> If encapsulation efficiency (%EE) remains below 90%, unentrapped free drug in systemic circulation risks off-target cytotoxicity and rapid clearance. Optimize %EE by increasing the lipid-to-drug (L/D) molar ratio or modulating the microfluidic flow rate ratio (FRR) and organic-to-aqueous phase mixing velocity.
                 </p>
               </div>
             </div>

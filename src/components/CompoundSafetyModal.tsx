@@ -16,7 +16,7 @@ export const CompoundSafetyModal: React.FC<CompoundSafetyModalProps> = ({
   if (!isOpen) return null;
 
   const safety = compound.safetyData || {
-    source: 'PharmADDS Standard Laboratory Chemical Safety Heuristics',
+    source: 'PharmaCore Standard Laboratory Chemical Safety Heuristics',
     signalWord: compound.molecularWeight > 500 ? 'Danger' : 'Warning',
     hazardStatements: [
       'H302: Harmful if swallowed (Oral Acute Toxicity Cat 4)',

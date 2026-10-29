@@ -368,10 +368,10 @@ export const AsdHumidityTgDegradationCalculator: React.FC<AsdHumidityTgDegradati
               <span className="p-1 rounded bg-rose-100 text-rose-700">
                 <Activity className="w-4 h-4" />
               </span>
-              <span>Predicted Glass Transition ($T_{g,\text{blend}}$) & Shelf-Life vs. Relative Humidity</span>
+              <span>Predicted Glass Transition (Tg,blend) & Shelf-Life vs. Relative Humidity</span>
             </h4>
             <p className="text-xs text-slate-500">
-              Shows how increasing relative humidity depresses $T_g$ until it intersects storage temperature ($25^\circ\text{C}$), initiating rapid crystallization.
+              Shows how increasing relative humidity depresses Tg until it intersects storage temperature (25°C), initiating rapid crystallization.
             </p>
           </div>
           <span className="text-xs font-mono font-bold text-rose-800 bg-rose-50 px-2.5 py-1 rounded border border-rose-200">

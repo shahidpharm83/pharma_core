@@ -1,5 +1,5 @@
 {
-  "name": "PharmADDS: Advanced Drug Delivery & Nanotechnology Studio",
+  "name": "PharmaCore: Advanced Drug Delivery & Nanotechnology Studio",
   "description": "Enterprise pharmaceutical R&D platform for Nanoparticle delivery systems, Amorphous Solid Dispersions (ASD), Inhalation science (MDI/DPI), and PK/PD bioavailability simulation.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
